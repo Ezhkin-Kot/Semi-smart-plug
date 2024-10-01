@@ -1,14 +1,6 @@
-unsigned long last_time;
-unsigned long last_press;
-bool start;
-bool midbt;
-bool ltbt;
-bool rtbt;
-bool midbutt;
-bool leftbutt;
-bool rightbutt;
-unsigned int t;
-unsigned int timer;
+unsigned long last_time, last_press;
+bool start, midbt, ltbt, rtbt, midbutt, leftbutt, rightbutt;
+unsigned int t, timer;
 void setup() {
   pinMode(4, digitalWrite);
   pinMode(3, INPUT_PULLUP);
